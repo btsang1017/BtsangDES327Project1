@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#bfe6ff;
+    font-family:"Figtree";
+}
+
+.background {
+    background-image:url(Images/Sky.jpeg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-size:cover;
+    height:100%;
+}
+
+.home {
+    text-align:right;
+    background-color:#FFFCC9;
+    padding:20px;
+    padding-right:16%;
+}
+
+.differentpages {
+    background-color:#FFFCC9;
+    text-align:right;
+    width:100%;
+    height:40px;
+    padding-top: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+   display: inline-block;
+}
+
+/*HomePage*/
+
+.AboutMeButton {
+    margin:20px;
+}
+
+.Portfoliobutton {
+    margin:0px;
+}
+.experiencebutton{
+    margin:20px;
+}
+
+.contactbutton {
+    margin-right:20px;
+}
+
+.Name {
+    background-color:aliceblue;
+    text-align: center;
+    font-size:25pt;
+    margin-left:25%;
+    margin-right:25%;
+    margin-top:175px;
+    margin-bottom:20px;
+    padding:25px;
+}
+
+/*AboutMe*/
+
+.AboutMe {
+    background-color: #f3faff;
+    font-size:25pt;
+    text-align-last: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left:25%;
+    margin-right:25%;
+    padding:20px;
+}
+
+.AboutMePhoto {
+    background-color:#f3faff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:30px;
+}
+
+.Goal {
+    background-color:#f3faff;
+    text-align:left;
+    margin-top:25px;
+    margin-bottom:25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.pagebuttons {
+    background-color:#f3faff;
+    text-align:center;
+    margin-left:25%;
+    margin-right:25%;
+    margin-bottom:20px;
+    padding:15px;
+}
+
+.Hobbiesbutton2 {
+    /*text-align:left;*/
+    }
+
+.Portfoliobutton2 {
+    /*text-align:right;*/
+}
+
+/*Hobbies*/
+
+.HobbiesandInterests {
+    background-color:#f3faff;
+    text-align: center;
+    font-size: 17pt;
+    margin-top:5%;
+    margin-bottom:25px;
+    margin-right:20%;
+    margin-left:17%;
+    padding:5px;
+}
+
+.MeWithCat {
+    float:left;
+    margin-left:17%;
+    margin-right:25px;
+}
+
+.likesdislikes {
+    background-color:#f3faff;
+    font-size: 15pt;
+    margin-bottom:25px;
+    margin-left:43%;
+    margin-right:20%;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    }
+
+.bio {
+    background-color:#f3faff;
+    height:200px;
+    font-size: 15pt;
+    margin-left:43%;
+    margin-right:20%;
+    margin-bottom:70px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+/*Portfolio*/
+    
+.MyWork {
+    background-color:#FFFFFF;
+    text-align:center;
+    margin-bottom:35px;
+    padding:5px;
+}
+
+.PersonalProjects {
+    text-align:center;
+    text-decoration-line: underline;
+    margin:20px;
+}
+
+.images {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lantern {
+    margin:25px;
+}
+
+.shenhe {
+    margin:25px;
+}
+
+.venti {
+    margin:25px;
+}
+
+.heart {
+    margin:25px;
+}
+
+.rose {
+    margin:25px;
+}
+    
+    
+/*Experience*/
+
+.Resume {
+    background-color:#f3faff;
+    margin-top:25px;
+    margin-bottom:25px;
+    margin-left:25%;
+    margin-right:25%;
+    padding-top:1px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+/*Contacts*/
+
+.Email {
+    background-color:#f3faff;
+    text-align:center;
+    margin-left:25%;
+    margin-right:25%;
+    margin-bottom:250px;
+    padding:25px;
